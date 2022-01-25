@@ -6,11 +6,22 @@ public class StudentClass
 {
    private String studentId;
    private String studentName;
+   private String address;
 
    public StudentClass (String studentId, String studentName)
    {
       this.studentId = studentId;
       this.studentName = studentName;
+   }
+
+   public void setAddress (String address)
+   {
+      this.address = address;
+   }
+
+   public String getAddress ()
+   {
+      return address;
    }
 
    public String getStudentId ()
